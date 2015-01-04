@@ -125,35 +125,83 @@
 
 *牛逼的前端我帮不了你, 但我能帮你成为一个一般前端工程师..*
 
-##### 必备的技能
+`小提示`： 前端在下学期还会分成2个方向： 图形与逻辑开发方向， 数据与布局方向
+
+##### 必备的技能 (2个方向都必须掌握！)
 + CSS
 	+ 阅读代码的技能, 不会阅读代码怎么用我提供给你们的UI框架
 	+ CSS 布局技能, 不会居中的乘早转行吧→_→
 	+ 盒模型技能
 	+ 基本的页面兼容 IE8+
 + JS
-	+ 数组
-	+ 对象
-	+ Ajax
-	+ 面向对象
-	+ 面向对象与对象原型
-	+ 对象原型与原型链
-	+ 函数
-		+ 作用域链
-		+ 闭包
-		+ 函数式编程
+	+ 阅读代码的技能，不会看代码还写啥代码→_→
+	+ `数组`(重点)
+		+ 创建数组， 稀释数组， 数组长度， 多维数组
+		+ `基本数组方法, pop, push, shift ...`
+		+ `ECMA5 数组方法, forEach, map, reduce`
+		+ 类数组与真数组， 已经如何将类数组转换成真数组, 如何区分类数组和真数组
+		+ 如何使用数组方法进行字符串操作 (Array.prototype.join.call, Array.prototype.fliter.call])
+	+ `对象`(重点)
+		+ `对象类型判断（Object.prototype.toString.call）`
+		+ 对象属性检测	
+		+ `属性枚举 for/in 已经 forin 和对象原型的关系， 如何避免枚举到继承的属性`
+		+ `序列化对象 Object.stringify, Object.toJSON`
+		+ Object.create （在原型继承会用到！）
+		+ Object.keys
+		+ `this 指针的指向问题(新生开学的笔试题哦)`
+	+ `函数`(重点)
+		+ 函数定义， 函数声明和函数赋值的区别
+		+ `函数的call, apply 方法`
+		+ `作用域与作用域链`
+		+ 学会使用将一些属性保存在函数中， 可以显著提高性能
+		+ `闭包`
+		+ `arguments 对象`
+		+ 原型对象prototype
+		+ 通过bind修改函数指针
+		+ 函数式编程, 使用函数来操控函数
+		+ `巧用闭包实现区部作用域`
+	+ 类 (可选掌握, 可暂时不要求)  
+	+ 正则表达式（可选掌握， 可暂时不要求）
+	+ `Ajax` (重点中的重点) 
+		+ `GET 方法`
+		+ `POST 方法`
+		+ Restful API
+		+ 浏览器跨域与同源策略
+		+ Websocket
+	+ Window API
+		+ `setTimeout, setInterval 基本用法`
+		+ 理解setTimeout, setInterval 中的异步事件队列
+		+ `location对象`
+		+ `navigator对象`
+		+ 错误处理
+		+ window 与iframe 以及同源策略与iframe
+	+ DOM API
+		+ `啥是DOM树`
+		+ `删除节点， 创建节点， 节点类型`
+		+ `获取元素属性`
+		+ Form API
+		+ `CSS 操作(style, H和getComputedStyle)`
+		+ `getElement[byId, sByClassName, sByTagName]等选择器`
+		+ `querySelector, querySelectorAll 的选择器`
+		+ 上面2中选择器的区别， （动态，性能，兼容）
 	+ 事件
-	+ 
+		+ `冒泡和捕捉`
+		+ `基本浏览器事件（load, click, mouseover, mouse out, blur, b,submit...）`
+		+ `去除浏览器模式事件`
+		+ `如何阻止事件冒泡`
+		+ 匿名函数与事件监听的取消
+	+ 面向对象(可选掌握, 可暂时不要求)  
+	+ 面向对象与对象原型(可选掌握, 可暂时不要求)  
+	+ 对象原型与原型链(可选掌握, 可暂时不要求)  
 
-##### 需要学习的东西
 
-+ 
+###  图形与逻辑开发方向需要学习的东西
 
-
-
-
-
-
+	+ canvas
+	+ application cache
+	+ localstorage
+	+ audio
+	+ CSS3 animation, rotate, translate, transition
 
 
 ###后端方向做
