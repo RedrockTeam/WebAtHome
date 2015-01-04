@@ -178,14 +178,14 @@
 		+ Restful API
 		+ 浏览器跨域与同源策略
 		+ Websocket
-	+ Window API
+	+ Window API 
 		+ `setTimeout, setInterval 基本用法`
 		+ 理解setTimeout, setInterval 中的异步事件队列
 		+ `location对象`
 		+ `navigator对象`
 		+ 错误处理
 		+ window 与iframe 以及同源策略与iframe
-	+ DOM API
+	+ DOM API （住店）
 		+ `啥是DOM树`
 		+ `删除节点， 创建节点， 节点类型`
 		+ `获取元素属性`
@@ -194,7 +194,7 @@
 		+ `getElement[byId, sByClassName, sByTagName]等选择器`
 		+ `querySelector, querySelectorAll 的选择器`
 		+ 上面2中选择器的区别， （动态，性能，兼容）
-	+ 事件
+	+ 事件 (重点)
 		+ `冒泡和捕捉`
 		+ `基本浏览器事件（load, click, mouseover, mouse out, blur, b,submit...）`
 		+ `去除浏览器模式事件`
@@ -219,10 +219,6 @@
 	+ REM && EM
 	+ Ajax 队列
 	+ 桌面端浏览器兼容
-
-+ 前端框架日益兴起, 寒假学习一款UI框架. 如 jquery-ui, AmazonUI(国产框架, 中文文档诶)
-
-
 
 ###后端方向做
 - 学习常用的设计模式用并PHP实现 + 自己的思考.
