@@ -24,8 +24,6 @@
 
 ##作业内容:
 
--------------------------------------------
-
 ###前端注意事项：
 
 ####页面不崩是基本要求就不用我强调了吧，IE8以上浏览器能看
@@ -50,6 +48,8 @@
 - 代码的规范
 	- [注释规范](http://www.cnblogs.com/picaso/archive/2012/10/04/2711435.html)
 	- [推荐的编码规范](http://wenku.baidu.com/link?url=gr0E3ub9T5K3BTev5G5v-3FsCpNkTGl4I-lmwBTXwgZmSBP0Ic5o9P1_IlenbG20NZM8L_jlrt4rJarq0uw9xEzV9EkZdNNmFGnZEZg49Sm)
+
+------------------------------------------
 
 ###多选一(小括号中为选作):
 
