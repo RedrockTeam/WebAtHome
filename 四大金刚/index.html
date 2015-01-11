@@ -1,0 +1,421 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<style>
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, "Hiragino Sans GB", Arial, sans-serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #737373;
+    background-color: white;
+    margin: 10px 13px 10px 13px;
+}
+table {
+	margin: 10px 0 15px 0;
+	border-collapse: collapse;
+}
+td,th {	
+	border: 1px solid #ddd;
+	padding: 3px 10px;
+}
+th {
+	padding: 5px 10px;	
+}
+
+a {
+    color: #0069d6;
+}
+a:hover {
+    color: #0050a3;
+    text-decoration: none;
+}
+a img {
+    border: none;
+}
+p {
+    margin-bottom: 9px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #404040;
+    line-height: 36px;
+}
+h1 {
+    margin-bottom: 18px;
+    font-size: 30px;
+}
+h2 {
+    font-size: 24px;
+}
+h3 {
+    font-size: 18px;
+}
+h4 {
+    font-size: 16px;
+}
+h5 {
+    font-size: 14px;
+}
+h6 {
+    font-size: 13px;
+}
+hr {
+    margin: 0 0 19px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+}
+blockquote {
+    padding: 13px 13px 21px 15px;
+    margin-bottom: 18px;
+    font-family:georgia,serif;
+    font-style: italic;
+}
+blockquote:before {
+    content:"\201C";
+    font-size:40px;
+    margin-left:-10px;
+    font-family:georgia,serif;
+    color:#eee;
+}
+blockquote p {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    margin-bottom: 0;
+    font-style: italic;
+}
+code, pre {
+    font-family: Monaco, Andale Mono, Courier New, monospace;
+}
+code {
+    background-color: #fee9cc;
+    color: rgba(0, 0, 0, 0.75);
+    padding: 1px 3px;
+    font-size: 12px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+pre {
+    display: block;
+    padding: 14px;
+    margin: 0 0 18px;
+    line-height: 16px;
+    font-size: 11px;
+    border: 1px solid #d9d9d9;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+pre code {
+    background-color: #fff;
+    color:#737373;
+    font-size: 11px;
+    padding: 0;
+}
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:10px auto;
+    }
+}
+@media print {
+	body,code,pre code,h1,h2,h3,h4,h5,h6 {
+		color: black;
+	}
+	table, pre {
+		page-break-inside: avoid;
+	}
+}
+</style>
+<title>红岩网校Web研发部 智取威虎山</title>
+
+</head>
+<body>
+<h2>红岩网校Web研发部 智取威虎山</h2>
+
+<blockquote><p>亲爱的同学， 欢迎来到红岩网校Web研发部智取威虎山。在这里， 你将有一个寒假的时间， 来对付威虎山那可怕的<del>八大金刚</del>(为降低难度， 已为4大金刚)。 保持良好的心态， 努力学习， 我想你将是那个成功打进威虎山的杨子荣。</p></blockquote>
+
+<p>小提示： 遇到问题肿么办？</p>
+
+<ol>
+<li>今晚我不搞出来不睡觉了了！！！！ （推荐方法， 收获多多）</li>
+<li>学长~~~~ （>_>, 妹子专用, 非特殊情况不要来找部长。 多去群里找干事吧）</li>
+<li>Baidu, Google, 参考别人的代码是可以的。。 要是都是一样的。。→_→。。你知道后果的</li>
+</ol>
+
+
+<p>做下列题目之前， 一个简单的熟悉JS的路线图</p>
+
+<p>Javascript DOM 编程艺术（很简单也很薄， 很快就能看完） -> Javascript 语言精粹（经典蝴蝶书）</p>
+
+<p>看完蝴蝶书差不多就可以尝试下面的题目了， 然后反复查书， 反复百度，Google， 反复折腾。祝大家寒假愉快。</p>
+
+<p>如何调试？</p>
+
+<ul>
+<li>在浏览器中设置断点 source 那里。</li>
+<li>在代码中插入 debugger</li>
+<li>使用console.log</li>
+<li>学长~~~~ （>_>, 妹子专用, 非特殊情况不要来找部长。 多去群里找干事吧）</li>
+</ul>
+
+
+<h5>BOSS 1 (DOM 篇)</h5>
+
+<p>注意事项： 必须使用原生JS，不能使用jquery等开源框架, 不考虑兼容性，  Chrome最新版即可</p>
+
+<p>参考书籍， Ajax可阅读 Javascript 权威指南第18章
+DOM 方法可以参考Javascript DOM 编程艺术</p>
+
+<p><a href="echo.php.zip" title="下载echo.php">echo.php</a></p>
+
+<p>Ajax 访问的后端文件使用提供的echo.php。 Windows使用WAMP Server 集成包运行即可， 别说WAMP都不会运行， →_→，这可是最基本的技能.</p>
+
+<p>使用ajax会获取到下列数据</p>
+
+<pre><code>    var data = {
+        "ret":true, 
+        "errcode":0, 
+        "errmsg":"success", 
+        "ver":1, 
+        "data":{
+            "page":3,
+            "travelers":[
+                {"nickName":"andycall","userImg":"..."},
+                {"nickName":"boolean93","userImg":"..."},
+                {"nickName":"zeroling","userImg":"..."},
+                {"nickName":"lecion","userImg":"..."}
+            ],
+            "travelerCnt":48,
+            "size":20
+        }
+    }
+</code></pre>
+
+<p>请将上述data的数据， 通过原生的JS的方式， 转换成下面的代码并添加到HTML中</p>
+
+<pre><code>&lt;ul class="e_focus_slides clrfix"&gt;
+&lt;li class="slides-list fl"&gt;
+    &lt;ul class="page clrfix" data-page="3" data-travelerCnt="48", data-size="20" &gt;
+        &lt;li class="page-list fl"&gt;
+            &lt;div class="favicon"&gt;
+                &lt;img src="..." alt="" /&gt;
+                &lt;span class="zhezhao pngfix"&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p class="userName"&gt;
+                andycall
+            &lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li class="page-list fl"&gt;
+            &lt;div class="favicon"&gt;
+                &lt;img src="..." alt="" /&gt;
+                &lt;span class="zhezhao pngfix"&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p class="userName"&gt;
+                boolean93
+            &lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li class="page-list fl"&gt;
+            &lt;div class="favicon"&gt;
+                &lt;img src="..." alt="" /&gt;
+                &lt;span class="zhezhao pngfix"&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p class="userName"&gt;
+                zeroling
+            &lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li class="page-list fl"&gt;
+            &lt;div class="favicon"&gt;
+                &lt;img src="..." alt="" /&gt;
+                &lt;span class="zhezhao pngfix"&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p class="userName"&gt;
+                lecion
+            &lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+</code></pre>
+
+<h5>BOSS 2</h5>
+
+<p>注意事项： 必须使用原生JS，不能使用jquery等开源框架, 不考虑兼容性, Chrome最新版即可
+提示：Obj对象转JSON字符可以参考Javascript 权威指南 第6版 141页
+实现将下列HTML代码转化为JSON形式的字符串</p>
+
+<pre><code>&lt;ul class="e_focus_slides clrfix"&gt;
+&lt;li class="slides-list fl"&gt;
+    &lt;ul class="page clrfix" data-page="3" data-travelerCnt="48", data-size="20" &gt;
+        &lt;li class="page-list fl"&gt;
+            &lt;div class="favicon"&gt;
+                &lt;img src="..." alt="" /&gt;
+                &lt;span class="zhezhao pngfix"&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p class="userName"&gt;
+                andycall
+            &lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li class="page-list fl"&gt;
+            &lt;div class="favicon"&gt;
+                &lt;img src="..." alt="" /&gt;
+                &lt;span class="zhezhao pngfix"&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p class="userName"&gt;
+                boolean93
+            &lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li class="page-list fl"&gt;
+            &lt;div class="favicon"&gt;
+                &lt;img src="..." alt="" /&gt;
+                &lt;span class="zhezhao pngfix"&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p class="userName"&gt;
+                zeroling
+            &lt;/p&gt;
+        &lt;/li&gt;
+        &lt;li class="page-list fl"&gt;
+            &lt;div class="favicon"&gt;
+                &lt;img src="..." alt="" /&gt;
+                &lt;span class="zhezhao pngfix"&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+            &lt;p class="userName"&gt;
+                lecion
+            &lt;/p&gt;
+        &lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+
+var data = {
+    "page":3,
+    "travelers":[
+        {"nickName":"andycall","userImg":"..."},
+        {"nickName":"boolean93","userImg":"..."},
+        {"nickName":"zeroling","userImg":"..."},
+        {"nickName":"lecion","userImg":"..."}
+    ],
+    "travelerCnt":48,
+    "size":20
+}
+</code></pre>
+
+<h4>BOSS 3</h4>
+
+<p>实现一个简单的图片轮播。（可以使用jQuery, 但是不能用现有的插件， 当然你可以自己写一个）</p>
+
+<p>提示：
+    如何使用setTimeout?
+    可以去github找一些源码看看
+    在index放在全局作用域中
+    动画可以使用jquery 的animate方法， 方便快捷
+    停止setTimeout 可以使用clearTimeout</p>
+
+<p>可以采用多用方式初始化图片轮播</p>
+
+<ol>
+<li>jquery 插件的方式(比如unslider.js)</li>
+</ol>
+
+
+<pre><code>    var slider = $("#slider").unslider({
+        speed: 2000,               //  The speed to animate each slide (in milliseconds)
+        delay: 3000,              //  The delay between slide animations (in milliseconds
+        keys: true,               //  Enable keyboard (left, right) arrow shortcuts
+        fluid: false              //  Support responsive design. May break non-responsive designs
+    });
+</code></pre>
+
+<ol>
+<li>闭包的方式(swipe.js)</li>
+</ol>
+
+
+<pre><code>    var mySwipe \= Swipe\(elem\, \{
+        startSlide: 4,
+        auto: 3000,
+        continuous: true,
+        disableScroll: true,
+        stopPropagation: true,
+        callback: function(index, element) {},
+        transitionEnd: function(index, element) {}
+    }); 
+</code></pre>
+
+<ol>
+<li>构造函数的方式</li>
+</ol>
+
+
+<pre><code>var runner = new Splash(document.getElementById('container'),{
+    speed : 400,
+    duration : 2000
+});
+</code></pre>
+
+<p>要求：
+    切换的初始化函数返回一个图片切换对象的引用， 改对象拥有next（向右）, prev（向左）, stop（停止）, start（开始） 等方法</p>
+
+<p>如:</p>
+
+<pre><code>    slider.next() // 轮播向右
+    slider.prev() // 轮播向左
+    slider.stop() // 轮播停止
+    slider.start() // 轮播开始
+</code></pre>
+
+<h4>BOSS 4(二选一)</h4>
+
+<p>注意事项： 必须使用原生JS代码， 不能使用jquery, velocity, d3 等开源框架, Chrome 能运行即可</p>
+
+<p><code>图形与逻辑开发方向</code></p>
+
+<p>提示： canvas 上下文是啥？， moveTo 方法， lineTo方法， 以及鼠标事件： mousedown, mouseup, mousemove, 如何取消事件监听</p>
+
+<p>使用canvas实现一个画板， 可以用鼠标进行画画</p>
+
+<p><code>数据与布局方向</code></p>
+
+<p>提示： 如何处理2个异步请求？ 找出这个问题的解决方案.</p>
+
+<p>同时发送2个ajax请求， 要求在2个请求都到达的时候执行一个下面这个回调函数</p>
+
+<pre><code>function f(){
+    console.log("哎呀， 2个请求都到啦");
+}
+</code></pre>
+</body>
+</html>
