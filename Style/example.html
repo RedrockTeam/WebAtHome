@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<link rel="stylesheet" href="assets/css/base.css">
+	<style>
+	.container{
+		width: 960px;
+		margin: 0 auto;
+	}
+	.sparation{
+		margin-bottom: 20px;
+	}
+	</style>
+</head>
+<body>
+	 <div class="container">
+		<h2>简单基础样式库</h2>
+    <p>使用方式：</p>
+	引入
+	<pre><code>&lt;link rel="stylesheet" href="assets/css/base.css"&gt;</code></pre>	
+	然后写上html再加上class就可以啦
+
+	
+	<h3>标题样式</h3>
+	<hr>
+	<div class="bs-example bs-example-type">
+    <table class="table">
+      <tbody>
+        <tr>
+          <td><h1>h1. heading</h1></td>
+          <td class="type-info">Semibold 36px</td>
+        </tr>
+        <tr>
+          <td><h2>h2. heading</h2></td>
+          <td class="type-info">Semibold 30px</td>
+        </tr>
+        <tr>
+          <td><h3>h3. heading</h3></td>
+          <td class="type-info">Semibold 24px</td>
+        </tr>
+        <tr>
+          <td><h4>h4. heading</h4></td>
+          <td class="type-info">Semibold 18px</td>
+        </tr>
+        <tr>
+          <td><h5>h5. heading</h5></td>
+          <td class="type-info">Semibold 14px</td>
+        </tr>
+        <tr>
+          <td><h6>h6. heading</h6></td>
+          <td class="type-info">Semibold 12px</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="nt">&lt;h1&gt;</span>h1. heading<span class="nt">&lt;/h1&gt;</span>
+<span class="nt">&lt;h2&gt;</span>h2. heading<span class="nt">&lt;/h2&gt;</span>
+<span class="nt">&lt;h3&gt;</span>h3. heading<span class="nt">&lt;/h3&gt;</span>
+<span class="nt">&lt;h4&gt;</span>h4. heading<span class="nt">&lt;/h4&gt;</span>
+<span class="nt">&lt;h5&gt;</span>h5. heading<span class="nt">&lt;/h5&gt;</span>
+<span class="nt">&lt;h6&gt;</span>h6. heading<span class="nt">&lt;/h6&gt;</span></code></pre></div>
+	
+
+	<h3>全局样式</h3>
+	<hr>
+	<p>全局 font-size 设置为 14px，line-height 设置为 1.428。这些属性直接赋予 <body> 元素和所有段落元素。另外，<p> （段落）元素还被设置了等于 1/2 行高（即 10px）的底部外边距（margin）。</p>
+
+	
+	<h3>表格</h3>
+	<hr>
+	<p>为任意 &lt;table&gt; 标签添加 .table 类可以为其赋予基本的样式 — 少量的内补（padding）和水平方向的分隔线。这种方式看起来很多余！？但是我们觉得，表格元素使用的很广泛，如果我们为其赋予默认样式可能会影响例如日历和日期选择之类的插件，所以我们选择将此样式独立出来</p>
+	<div class="bs-example">
+    <table class="table">
+      <caption>Optional table caption.</caption>
+      <thead>
+        <tr>
+          <th>#</th>
+          <th>First Name</th>
+          <th>Last Name</th>
+          <th>Username</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>Mark</td>
+          <td>Otto</td>
+          <td>@mdo</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>@fat</td>
+        </tr>
+        <tr>
+          <td>3</td>
+          <td>Larry</td>
+          <td>the Bird</td>
+          <td>@twitter</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+	<pre><code>&lt;div&nbsp;class=&quot;bs-example&quot;&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;table&nbsp;class=&quot;table&quot;&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;caption&gt;Optional&nbsp;table&nbsp;caption.&lt;/caption&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;thead&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;#&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;First&nbsp;Name&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Last&nbsp;Name&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;th&gt;Username&lt;/th&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/thead&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tbody&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;1&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Mark&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Otto&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;@mdo&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;2&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Jacob&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Thornton&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;@fat&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;3&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;Larry&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;the&nbsp;Bird&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;td&gt;@twitter&lt;/td&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tr&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&lt;/tbody&gt;<br>&nbsp;&nbsp;&nbsp;&nbsp;&lt;/table&gt;<br>&nbsp;&nbsp;&lt;/div&gt;</code></pre>
+
+	
+	<h3>表单</h3>	
+	<hr>
+
+		
+	<h4>按钮</h4>
+	<div class="sparation">
+			<button class="btn btn-hg btn-primary">
+  		Boss Button
+	</button>
+	<pre><code>&lt;button&nbsp;class=&quot;btn&nbsp;btn-hg&nbsp;btn-primary&quot;&gt;<br>&nbsp;&nbsp;Boss&nbsp;Button<br>&lt;/button&gt;</code></pre>
+	</div>	
+	<div class="sparation">
+		<button class="btn btn-embossed btn-primary">
+  Embossed Button
+</button>
+<pre><code>&lt;button&nbsp;class=&quot;btn&nbsp;btn-embossed&nbsp;btn-primary&quot;&gt;<br>&nbsp;&nbsp;Embossed&nbsp;Button<br>&lt;/button&gt;</code></pre>
+	</div>
+	<div class="sparation">
+		<button class="btn btn-default">Default</button>
+<button class="btn btn-primary">Primary</button>
+<button class="btn btn-info">Info</button>
+<button class="btn btn-danger">Danger</button>
+<button class="btn btn-success">Success</button>
+<button class="btn btn-warning">Warning</button>
+<button class="btn btn-inverse">Inverse</button>
+<pre><code>&lt;button&nbsp;class=&quot;btn&nbsp;btn-default&quot;&gt;Default&lt;/button&gt;<br>&lt;button&nbsp;class=&quot;btn&nbsp;btn-primary&quot;&gt;Primary&lt;/button&gt;<br>&lt;button&nbsp;class=&quot;btn&nbsp;btn-info&quot;&gt;Info&lt;/button&gt;<br>&lt;button&nbsp;class=&quot;btn&nbsp;btn-danger&quot;&gt;Danger&lt;/button&gt;<br>&lt;button&nbsp;class=&quot;btn&nbsp;btn-success&quot;&gt;Success&lt;/button&gt;<br>&lt;button&nbsp;class=&quot;btn&nbsp;btn-warning&quot;&gt;Warning&lt;/button&gt;<br>&lt;button&nbsp;class=&quot;btn&nbsp;btn-inverse&quot;&gt;Inverse&lt;/button&gt;</code></pre>
+	</div>
+
+
+		
+	<h4>输入框</h4>
+	<div class="sparation">
+		<input type="text" placeholder="Enter something" class="form-control" />
+		<pre><code>&lt;input&nbsp;type=&quot;text&quot;&nbsp;placeholder=&quot;...&quot;&nbsp;class=&quot;form-control&quot;&nbsp;/&gt;</code></pre>
+	</div>
+
+	<div class="sparation">
+		<!-- Error state -->
+<div class="form-group has-error">
+  <input class="form-control" type="text" placeholder="Error" />
+</div>
+
+<!-- Warning state -->
+<div class="form-group has-warning">
+  <input class="form-control" type="text" placeholder="Error" />
+</div>
+
+<!-- Success state -->
+<div class="form-group has-success">
+  <input class="form-control" type="text" placeholder="Error" />
+</div>
+
+<!-- Disabled state -->
+<div class="form-group">
+  <input class="form-control" type="text" placeholder="Disabled" disabled />
+</div>
+<pre><code>&lt;!--&nbsp;Error&nbsp;state&nbsp;--&gt;<br>&lt;div&nbsp;class=&quot;form-group&nbsp;has-error&quot;&gt;<br>&nbsp;&nbsp;&lt;input&nbsp;class=&quot;form-control&quot;&nbsp;type=&quot;text&quot;&nbsp;placeholder=&quot;Error&quot;&nbsp;/&gt;<br>&lt;/div&gt;<br><br>&lt;!--&nbsp;Warning&nbsp;state&nbsp;--&gt;<br>&lt;div&nbsp;class=&quot;form-group&nbsp;has-warning&quot;&gt;<br>&nbsp;&nbsp;&lt;input&nbsp;class=&quot;form-control&quot;&nbsp;type=&quot;text&quot;&nbsp;placeholder=&quot;Error&quot;&nbsp;/&gt;<br>&lt;/div&gt;<br><br>&lt;!--&nbsp;Success&nbsp;state&nbsp;--&gt;<br>&lt;div&nbsp;class=&quot;form-group&nbsp;has-success&quot;&gt;<br>&nbsp;&nbsp;&lt;input&nbsp;class=&quot;form-control&quot;&nbsp;type=&quot;text&quot;&nbsp;placeholder=&quot;Error&quot;&nbsp;/&gt;<br>&lt;/div&gt;<br><br>&lt;!--&nbsp;Disabled&nbsp;state&nbsp;--&gt;<br>&lt;div&nbsp;class=&quot;form-group&quot;&gt;<br>&nbsp;&nbsp;&lt;input&nbsp;class=&quot;form-control&quot;&nbsp;type=&quot;text&quot;&nbsp;placeholder=&quot;Disabled&quot;&nbsp;disabled&nbsp;/&gt;<br>&lt;/div&gt;</code></pre>
+	</div>
+</div>	
+
+</body>
+</html>
