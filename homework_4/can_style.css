@@ -1,0 +1,25 @@
+#canvas_holder{
+	height:666px;
+	width:666px;
+	margin:0 auto;
+}
+.colors{
+	width: 30px;
+	height: 15px;
+	border: 1px solid;
+	float: left;
+	margin-left: 5px;
+	list-style: none;
+}
+.pens{
+	width: 30px;
+	height: 15px;
+	text-align: center;
+	float: left;
+	margin-left: 5px;
+	list-style: none;
+	border: 1px solid;
+}
+#btn1{
+	margin-top: 50px;
+}

@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>canvas</title>
+<script type="text/javascript" src="drawPics.js">
+</script>
+<link rel="stylesheet" type="text/css" href="can_style.css">
+</head>
+<body>
+	<h1>一个简单的画板</h1>
+
+	<ul id="color_holder">
+		<li class="colors" style="background-color:#FF0000;"></li>
+		<li class="colors" style="background-color:#00FFFF;"></li>
+		<li class="colors" style="background-color:#00FF00;"></li>
+		<li class="colors" style="background-color:#FFFF00;"></li>
+		<li class="colors" style="background-color:#000000;"></li>
+	</ul>
+
+<br>
+
+	<ul id="pen_size">
+		<li class="pens">小</li>
+		<li class="pens">中</li>
+		<li class="pens">大</li>
+	</ul>
+
+<br>
+
+	<input id="btn1" type="button" value="清除画板"/>
+
+	<div id="canvas_holder">
+		<canvas id="draw" width="700" height="700" style="border:1px solid">Draw a picture</canvas>
+	</div>
+
+</body>
+</html>
